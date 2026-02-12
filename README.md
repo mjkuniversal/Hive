@@ -91,6 +91,41 @@ Create a team with fullstack-lead, qa-lead, and devops-lead to build and ship th
 
 Each team has a **lead** (Opus) that coordinates and **specialists** (Sonnet) that execute. Leads create tasks, assign specialists, and synthesize results.
 
+## MCP Interns
+
+Every specialist agent has access to two LLM "interns" via MCP servers — one powered by OpenAI and one by Google Gemini. These run as global MCP servers registered in `~/.claude.json`.
+
+### Setup
+
+```bash
+# Install dependencies
+cd mcp && python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+```
+
+Then add your API keys to `~/.claude.json` in the `mcpServers.openai-intern.env` and `mcpServers.gemini-intern.env` blocks:
+- **OpenAI**: Get a key at https://platform.openai.com/api-keys
+- **Gemini**: Get a key at https://aistudio.google.com/apikey
+
+### Available Tools
+
+Both interns expose the same 5 tools:
+
+| Tool | Purpose |
+|------|---------|
+| `ask` | General-purpose query (research, analysis, any free-form task) |
+| `draft` | Write content (code, docs, emails, reports, proposals) |
+| `review` | Critique content/code (security, writing, compliance, QA) |
+| `analyze` | Structured analysis (cost-benefit, risk, competitive, root-cause) |
+| `brainstorm` | Generate ideas and alternatives |
+
+### Example
+
+```
+Use the openai-intern review tool to check this code for security issues
+Have the gemini-intern draft a proposal for the new API design
+```
+
 ## Agent Format
 
 Each `.md` file follows the Claude Code agent definition format:
