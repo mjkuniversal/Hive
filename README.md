@@ -59,18 +59,37 @@ agents/
 
 ## Usage
 
-These agents are designed for [Claude Code](https://claude.com/claude-code) teams and swarms.
+These agents are designed for [Claude Code](https://claude.com/claude-code) subagents and agent teams.
 
 ### Install globally
 ```bash
 cp agents/**/*.md ~/.claude/agents/
 ```
 
-### Spawn a team
+### Enable Agent Teams
+Add to `~/.claude/settings.json`:
+```json
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  }
+}
 ```
-# In Claude Code, reference agents by name when creating teams
-# Leads coordinate specialists via TaskCreate and SendMessage
+
+### Using agents
+
+**As subagents** — Claude automatically delegates to agents based on task context, or you can invoke them explicitly:
 ```
+Use the ops-lead agent to diagnose my network issue
+Have the security-auditor check this repo
+```
+
+**As a team** — Multiple agents work in parallel, communicate directly, and share a task list:
+```
+Create a team with fullstack-lead, qa-lead, and devops-lead to build and ship this feature
+```
+
+Each team has a **lead** (Opus) that coordinates and **specialists** (Sonnet) that execute. Leads create tasks, assign specialists, and synthesize results.
 
 ## Agent Format
 
