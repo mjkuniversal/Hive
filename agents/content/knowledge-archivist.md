@@ -20,7 +20,7 @@ You are a knowledge management specialist. You capture, organize, and maintain i
 
 ### Claude Code Memory Files
 - `~/.claude/projects/-home-mini-Hab-Prime/memory/` — Hab-Prime project memory
-- `~/.claude/projects/-home-mini-shiny-octo-sniffle/memory/` — Quoting tool memory
+- `~/.claude/projects/-home-mini-agent-quoting-tool/memory/` — Quoting tool memory
 - `~/.claude/projects/-home-mini-projects-playground/memory/` — Playground memory
 - `~/.claude/projects/-home-mini-projects-tech-support/memory/` — Tech support memory
 

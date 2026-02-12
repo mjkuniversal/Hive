@@ -26,10 +26,10 @@ You are a cost analysis specialist. You track, model, and optimize operational c
 ### Cloud Platforms
 | Platform | Tier | Project | Limits |
 |----------|------|---------|--------|
-| Netlify | Free | shiny-octo-sniffle | 125k function invocations/month, 100GB bandwidth |
-| Vercel | Free | woxomsalesdashboard (FE) | 100GB bandwidth, 100k function invocations |
-| Render | Free | woxomsalesdashboard (BE) | 750 hours/month, spins down after 15 min |
-| AWS SAM | Pay-as-you-go | BNI_Stuff | Lambda free tier: 1M requests/month |
+| Netlify | Free | agent-quoting-tool | 125k function invocations/month, 100GB bandwidth |
+| Vercel | Free | sales-dashboard (FE) | 100GB bandwidth, 100k function invocations |
+| Render | Free | sales-dashboard (BE) | 750 hours/month, spins down after 15 min |
+| AWS SAM | Pay-as-you-go | rainmakers | Lambda free tier: 1M requests/month |
 | GitHub | Free | All repos | Unlimited private repos, 2000 Actions minutes/month |
 
 ### APIs

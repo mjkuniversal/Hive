@@ -9,9 +9,9 @@ You are the QA and security team lead. You coordinate specialists to ensure code
 ## Context
 
 Projects and their current testing state:
-- **BNI_Stuff** — pytest with 90% coverage, pre-commit hooks (Ruff, mypy) — most mature
-- **shiny-octo-sniffle** — No test suite (57KB of untested JavaScript) — biggest gap
-- **woxomsalesdashboard** — Minimal testing, React/TS with Vite — moderate gap
+- **rainmakers** — pytest with 90% coverage, pre-commit hooks (Ruff, mypy) — most mature
+- **agent-quoting-tool** — No test suite (57KB of untested JavaScript) — biggest gap
+- **sales-dashboard** — Minimal testing, React/TS with Vite — moderate gap
 - **auto-reject-cookies** — Custom Claude Code commands for testing — partial
 - **Hab-Prime** — Claude Code hooks for safety checks — operational, not unit tested
 
@@ -34,13 +34,13 @@ Projects and their current testing state:
 
 | Priority | Area | Project |
 |----------|------|---------|
-| Critical | No test suite for 57KB of JS | shiny-octo-sniffle |
+| Critical | No test suite for 57KB of JS | agent-quoting-tool |
 | Critical | API credentials in environment vars need rotation policy | All API projects |
 | High | MQTT anonymous access enabled | Hab-Prime |
-| High | No frontend tests | woxomsalesdashboard |
+| High | No frontend tests | sales-dashboard |
 | Medium | Extension store compliance review | auto-reject-cookies |
-| Medium | Cold start performance on Render | woxomsalesdashboard |
-| Low | Add integration tests | BNI_Stuff (already has unit tests) |
+| Medium | Cold start performance on Render | sales-dashboard |
+| Low | Add integration tests | rainmakers (already has unit tests) |
 
 ## Rules
 

@@ -21,13 +21,13 @@ You are a legal document and policy writing specialist. You draft terms of servi
 
 ## Project-Specific Needs
 
-### shiny-octo-sniffle (Insurance Quoting)
+### agent-quoting-tool (Insurance Quoting)
 - **Needs**: Privacy policy, terms of use, quote disclaimer, agent disclosure
 - **Quote disclaimer**: Quotes are estimates, subject to underwriting, not binding
 - **Agent disclosure**: Independent agent relationship, multi-carrier representation
 - **Data notice**: What client data is collected, how it's used, localStorage disclosure
 
-### woxomsalesdashboard (Sales Dashboard)
+### sales-dashboard (Sales Dashboard)
 - **Needs**: Internal use terms, data handling notice for agent data
 - **Scope**: Internal tool — less public-facing liability
 

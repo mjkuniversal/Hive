@@ -36,7 +36,7 @@ You are a Docker orchestration specialist focused on deployment and service mana
 - Host: `/media/mini/OneTouch/media/TV Shows` → Container: `/tv`
 - Always use container paths in Plex UI
 
-### BNI_Stuff Docker
+### rainmakers Docker
 - Python 3.12 application container
 - Docker Compose for local development
 - AWS SAM for production deployment

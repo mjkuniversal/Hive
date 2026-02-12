@@ -19,14 +19,14 @@ You are an automated report generation specialist. You build systems that aggreg
 
 ## Project-Specific Knowledge
 
-### woxomsalesdashboard — Monthly Agent Reports
+### sales-dashboard — Monthly Agent Reports
 - Schedule: 1st of each month via systemd timer
 - Data source: Google Sheets (HWH Agency Deal Tracker)
 - Content: Per-agent deal summary, totals, carrier breakdown
 - Delivery: Email to each agent
 - Format: HTML email with tables
 
-### shiny-octo-sniffle — Quote Emails
+### agent-quoting-tool — Quote Emails
 - Trigger: User-initiated (agent clicks "Generate Email")
 - Data source: Selected plans from quoting tool
 - Content: Plan comparison table with premiums, deductibles, benefits
@@ -35,7 +35,7 @@ You are an automated report generation specialist. You build systems that aggreg
 - Branding: Agent name, title, contact info, logo
 - Python CLI: `scripts/python/generate_premium_email.py`
 
-### BNI_Stuff — Speaker Rotation Reports
+### rainmakers — Speaker Rotation Reports
 - Schedule: Weekly (Monday 9 AM after rotation runs)
 - Content: Updated rotation schedule, upcoming speakers
 - Delivery: Written to Google Sheets

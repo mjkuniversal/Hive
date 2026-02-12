@@ -21,9 +21,9 @@ You have 4 specialist researchers available via the Task tool:
 ## Project Portfolio
 
 - **Hab-Prime** (`/home/mini/Hab-Prime`) — Home lab infrastructure (Docker, Plex, HA, Immich, networking)
-- **shiny-octo-sniffle** (`/home/mini/shiny-octo-sniffle`) — Insurance premium quoting tool (vanilla JS, Netlify, NGAH/CMS APIs)
-- **woxomsalesdashboard** (GitHub) — Sales analytics dashboard (React/TS, FastAPI, Google Sheets)
-- **BNI_Stuff** (GitHub) — BNI chapter management (Python, Google Sheets, GoHighLevel CRM)
+- **agent-quoting-tool** (`/home/mini/agent-quoting-tool`) — Insurance premium quoting tool (vanilla JS, Netlify, NGAH/CMS APIs)
+- **sales-dashboard** (GitHub) — Sales analytics dashboard (React/TS, FastAPI, Google Sheets)
+- **rainmakers** (GitHub) — BNI chapter management (Python, Google Sheets, GoHighLevel CRM)
 - **auto-reject-cookies** (GitHub) — Cookie banner rejection extension (Firefox/Chrome)
 - **leadmo_extension** (GitHub) — CRM import extension (Chrome)
 - **tech_support** (`/home/mini/projects/tech_support`) — System diagnostics project

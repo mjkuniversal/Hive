@@ -21,7 +21,7 @@ You are a document organization specialist. You design and maintain file structu
 
 ### Code Projects (Well-Organized)
 - `/home/mini/Hab-Prime/` — Git-managed, structured by service
-- `/home/mini/shiny-octo-sniffle/` — Git-managed, flat structure
+- `/home/mini/agent-quoting-tool/` — Git-managed, flat structure
 - `/home/mini/projects/` — Development projects
 - GitHub repositories — Version controlled
 

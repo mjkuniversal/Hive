@@ -21,7 +21,7 @@ You are an accessibility auditing specialist. You evaluate web applications and 
 
 ## Project-Specific Audit Targets
 
-### shiny-octo-sniffle (Insurance Quoting)
+### agent-quoting-tool (Insurance Quoting)
 - Complex form with dynamic sections (spouse, children)
 - Plan cards with selection checkboxes
 - Filter modal with dropdowns and sliders
@@ -29,7 +29,7 @@ You are an accessibility auditing specialist. You evaluate web applications and 
 - Quote save/load interface
 - **High priority**: Insurance tools in regulated industry — accessibility lawsuits are common
 
-### woxomsalesdashboard (Sales Analytics)
+### sales-dashboard (Sales Analytics)
 - Interactive charts and data visualizations
 - Filter controls and date pickers
 - Leaderboard tables

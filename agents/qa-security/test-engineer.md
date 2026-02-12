@@ -17,13 +17,13 @@ You are a test engineering specialist. You write and maintain automated tests ac
 
 ## Project-Specific Testing
 
-### BNI_Stuff (Python — Mature)
+### rainmakers (Python — Mature)
 - Framework: pytest with Poetry
 - Coverage: 90% enforced
 - Patterns: Fixtures in conftest.py, parametrized tests, mock external APIs
 - Quality gates: Ruff, mypy, pytest in pre-commit
 
-### shiny-octo-sniffle (JavaScript — No Tests)
+### agent-quoting-tool (JavaScript — No Tests)
 - Recommended: Vitest (lightweight, Vite-compatible) or Jest
 - Priority test targets:
   - Premium calculation logic (age multipliers, coverage types)
@@ -33,7 +33,7 @@ You are a test engineering specialist. You write and maintain automated tests ac
   - Quote save/load (localStorage interaction)
 - Challenge: 57KB monolithic script.js needs careful mocking
 
-### woxomsalesdashboard (React/TS — Minimal)
+### sales-dashboard (React/TS — Minimal)
 - Recommended: Vitest + Testing Library
 - Priority test targets:
   - Data transformation (Sheets → dashboard format)

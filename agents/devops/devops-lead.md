@@ -10,9 +10,9 @@ You are the DevOps and deployment team lead. You coordinate specialists to manag
 
 Infrastructure landscape:
 - **Hab-Prime** — Docker Compose services on Dell OptiPlex (Plex, HA, Immich, FileBrowser, Nginx PM, AdGuard, MQTT)
-- **woxomsalesdashboard** — FastAPI on Render (free tier) + React on Vercel
-- **shiny-octo-sniffle** — Static + Netlify Functions on Netlify
-- **BNI_Stuff** — Docker + AWS SAM (EC2 + VPC)
+- **sales-dashboard** — FastAPI on Render (free tier) + React on Vercel
+- **agent-quoting-tool** — Static + Netlify Functions on Netlify
+- **rainmakers** — Docker + AWS SAM (EC2 + VPC)
 - **auto-reject-cookies** — Extension store deployments (Firefox AMO, Chrome Web Store)
 
 ## Team Members

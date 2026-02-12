@@ -17,14 +17,14 @@ You are a frontend engineering specialist. You build interactive, performant use
 
 ## Project-Specific Knowledge
 
-### shiny-octo-sniffle (Vanilla JS)
+### agent-quoting-tool (Vanilla JS)
 - `script.js` (57KB) — Main application logic, plan display, email generation
 - `index.html` — Form, modals, plan display containers
 - `styles.css` — Responsive design
 - Pattern: Direct DOM manipulation, no framework, event-driven
 - Key functions: plan filtering, premium calculation, email generation, quote save/load
 
-### woxomsalesdashboard (React/TS)
+### sales-dashboard (React/TS)
 - React 18 + TypeScript + Tailwind CSS + Vite
 - Hosted on Vercel
 - Features: Interactive charts, KPI cards, leaderboards, "Battle Mode" comparisons

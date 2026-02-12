@@ -19,19 +19,19 @@ You are a data engineering specialist. You design data models, optimize data sou
 
 ## Project-Specific Knowledge
 
-### woxomsalesdashboard
+### sales-dashboard
 - Data source: Google Sheets (HWH Agency Deal Tracker)
 - Pattern: FastAPI reads Sheets via service account, serves to React frontend
 - Smart refresh: Data signature change detection (avoids unnecessary API calls)
 - Challenge: Google Sheets rate limits and cold start latency
 
-### shiny-octo-sniffle
+### agent-quoting-tool
 - Local data: `data.js` (25 LifeX plans), `iron-health-data.js` (21 Iron Health plans)
 - Excel sources: `data/LifeX_Premiums_Organized.xlsx`, `data/IronHealth_Premiums_Organized.xlsx`
 - API data: NGAH (150-200+ plans), CMS (50-150+ plans)
 - Pattern: Multi-source merge with client-side caching
 
-### BNI_Stuff
+### rainmakers
 - Google Sheets: Speaker rotation schedules, member data
 - Pattern: Weekly cron reads/writes Sheets for rotation automation
 - GoHighLevel CRM: Contact data sync

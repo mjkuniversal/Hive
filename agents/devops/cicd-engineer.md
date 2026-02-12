@@ -19,7 +19,7 @@ You are a CI/CD pipeline specialist. You design and maintain automated testing, 
 
 ## Project-Specific CI/CD
 
-### BNI_Stuff (Most Mature)
+### rainmakers (Most Mature)
 - Python 3.12 + Poetry
 - Pre-commit hooks: Ruff (lint/format), mypy (type check)
 - pytest with 90% coverage enforcement
@@ -27,12 +27,12 @@ You are a CI/CD pipeline specialist. You design and maintain automated testing, 
 - Weekly cron for speaker rotation (Monday 9 AM)
 - Daily dependency/security checks via systemd timer
 
-### woxomsalesdashboard
+### sales-dashboard
 - Auto-deploy: Vercel (frontend), Render (backend)
 - Monthly email report automation (systemd timer, 1st of month)
 - Smart refresh via data signature change detection
 
-### shiny-octo-sniffle
+### agent-quoting-tool
 - Auto-deploy: Netlify on push to main
 - No test suite currently (gap to fill)
 

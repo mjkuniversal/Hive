@@ -20,14 +20,14 @@ You are a performance analysis specialist. You identify bottlenecks, measure bas
 
 ## Project-Specific Performance Context
 
-### shiny-octo-sniffle
+### agent-quoting-tool
 - **Known concern**: Rendering 300+ plan cards may lag
 - script.js is 57KB — all DOM manipulation, no virtual scrolling
 - API calls: NGAH (5-min cache), CMS (10-min cache)
 - No code splitting (single monolithic JS file)
 - Static hosting on Netlify (fast CDN)
 
-### woxomsalesdashboard
+### sales-dashboard
 - **Known concern**: Render free tier cold starts (30-60 seconds)
 - Frontend: React + Vite on Vercel (fast)
 - Backend: FastAPI on Render with exponential backoff handling

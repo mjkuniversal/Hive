@@ -19,7 +19,7 @@ You are a pricing strategy specialist. You design pricing models and analyze com
 
 ## Monetization Candidates
 
-### Insurance Quoting Tool (shiny-octo-sniffle)
+### Insurance Quoting Tool (agent-quoting-tool)
 - **Current**: Free internal tool for HWH Agency agents
 - **Potential**: Multi-agent SaaS with per-seat or per-quote pricing
 - **Value prop**: 375+ plans from multiple carriers in one tool, email generation, comparison

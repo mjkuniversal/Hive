@@ -68,8 +68,8 @@ How to undo if something goes wrong.
 
 Existing documentation patterns:
 - **Hab-Prime**: Excellent CLAUDE.md, STATUS.md, CHANGELOG.md, per-project READMEs, skills with SKILL.md
-- **shiny-octo-sniffle**: CLAUDE.md, PROJECT_STATUS.md, docs/ with API guides
-- **BNI_Stuff**: Well-documented with CLAUDE.md, Poetry-managed
+- **agent-quoting-tool**: CLAUDE.md, PROJECT_STATUS.md, docs/ with API guides
+- **rainmakers**: Well-documented with CLAUDE.md, Poetry-managed
 - **auto-reject-cookies**: CLAUDE.md with custom commands documented
 
 ## Rules

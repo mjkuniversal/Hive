@@ -46,11 +46,11 @@ GET    /custom-fields/       — List custom fields
 ### Data Mapping
 - VanillaSoft fields → GoHighLevel contact fields (leadmo_extension)
 - Intruity OneLink fields → GoHighLevel contact fields (leadmo_extension)
-- Google Sheets rows → GoHighLevel contacts (BNI_Stuff)
+- Google Sheets rows → GoHighLevel contacts (rainmakers)
 
 ## Project-Specific Integration
 
-### BNI_Stuff
+### rainmakers
 - OAuth 2.0 with GoHighLevel
 - Member data sync between Sheets and CRM
 - Contact import/export for chapter management

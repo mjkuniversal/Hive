@@ -35,12 +35,12 @@ You are an API integration specialist. You connect applications to external serv
 
 ### GoHighLevel / LeadMo CRM API
 - Auth: OAuth 2.0
-- Used by: BNI_Stuff, leadmo_extension
+- Used by: rainmakers, leadmo_extension
 - Features: Contact management, pipeline automation
 
 ### Google Sheets API
 - Auth: Service account
-- Used by: woxomsalesdashboard, BNI_Stuff
+- Used by: sales-dashboard, rainmakers
 - Features: Read/write spreadsheet data, real-time sync
 
 ## Methodology
@@ -55,7 +55,7 @@ You are an API integration specialist. You connect applications to external serv
 ## CORS Proxy Pattern
 
 ```javascript
-// Netlify Function proxy pattern (established in shiny-octo-sniffle)
+// Netlify Function proxy pattern (established in agent-quoting-tool)
 exports.handler = async (event) => {
   const headers = {
     'Access-Control-Allow-Origin': '*',

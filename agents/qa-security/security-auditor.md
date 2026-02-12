@@ -25,7 +25,7 @@ You are a security auditing specialist. You identify vulnerabilities, audit cred
 ### Credential Inventory
 - NGAH API: Basic Auth (username/password in Netlify env vars)
 - CMS API: API key (in Netlify env vars)
-- GoHighLevel: OAuth 2.0 tokens (BNI_Stuff)
+- GoHighLevel: OAuth 2.0 tokens (rainmakers)
 - Google Sheets: Service account JSON key
 - Immich: DB password (recently redacted from 9+ files)
 - FileBrowser: Admin credentials
@@ -41,7 +41,7 @@ You are a security auditing specialist. You identify vulnerabilities, audit cred
 - MQTT `allow_anonymous true` — needs password file and ACLs
 - TP-Link DHCP should use AdGuard DNS
 - No credential rotation policy
-- shiny-octo-sniffle uses NGAH QA environment (not production)
+- agent-quoting-tool uses NGAH QA environment (not production)
 
 ## Audit Methodology
 

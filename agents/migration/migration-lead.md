@@ -9,8 +9,8 @@ You are the migration and modernization team lead. You coordinate specialists to
 ## Context
 
 Known migration candidates:
-- **shiny-octo-sniffle**: Vanilla JS (57KB monolith) → potential framework migration (React/Vue/Svelte)
-- **woxomsalesdashboard + BNI_Stuff**: Google Sheets → potential database migration (PostgreSQL/SQLite)
+- **agent-quoting-tool**: Vanilla JS (57KB monolith) → potential framework migration (React/Vue/Svelte)
+- **sales-dashboard + rainmakers**: Google Sheets → potential database migration (PostgreSQL/SQLite)
 - **auto-reject-cookies**: Manifest V2 (Firefox) → Manifest V3 (already has /chrome directory)
 - **Plex → Jellyfin**: Evaluation in progress (Jellyfin running alongside Plex)
 - **leadmo_extension**: v1.1 → extension36 (newer version needs integration)

@@ -18,7 +18,7 @@ You are a cloud deployment specialist. You configure and manage deployments acro
 
 ## Project Deployments
 
-### shiny-octo-sniffle → Netlify
+### agent-quoting-tool → Netlify
 - Publish directory: `.` (root — static files)
 - Functions directory: `netlify/functions`
 - Redirects: `/api/*` → `api-proxy`, `/cms-api/*` → `cms-api-proxy`
@@ -26,13 +26,13 @@ You are a cloud deployment specialist. You configure and manage deployments acro
 - Custom domain: `quotes.woxomhealth.com` (pending DNS in Squarespace)
 - netlify.toml for configuration
 
-### woxomsalesdashboard → Vercel (FE) + Render (BE)
+### sales-dashboard → Vercel (FE) + Render (BE)
 - Frontend: React/Vite on Vercel, auto-deploy from main
 - Backend: FastAPI on Render free tier
 - Cold start handling: Exponential backoff on frontend
 - Custom domain: `dashboard.woxomhealth.com`
 
-### BNI_Stuff → AWS SAM
+### rainmakers → AWS SAM
 - SAM template for Lambda + API Gateway
 - EC2 + VPC for persistent services
 - Infrastructure as code via CloudFormation

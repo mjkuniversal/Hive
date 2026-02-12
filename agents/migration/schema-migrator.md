@@ -19,16 +19,16 @@ You are a data and schema migration specialist. You migrate data between systems
 ## Migration Candidates
 
 ### Google Sheets → PostgreSQL/SQLite
-- **woxomsalesdashboard**: HWH Agency Deal Tracker (agent deals, carriers, policy types)
-- **BNI_Stuff**: Speaker rotation data, member roster, schedule history
+- **sales-dashboard**: HWH Agency Deal Tracker (agent deals, carriers, policy types)
+- **rainmakers**: Speaker rotation data, member roster, schedule history
 - **Considerations**: Sheets is the "source of truth" — other humans edit it directly
 
 ### localStorage → Server-Side Storage
-- **shiny-octo-sniffle**: Saved quotes (up to 50), agent branding settings
+- **agent-quoting-tool**: Saved quotes (up to 50), agent branding settings
 - **Considerations**: Currently client-only, no cross-device sync
 
 ### Static JS Data → API/Database
-- **shiny-octo-sniffle**: `data.js` (25 LifeX plans), `iron-health-data.js` (21 plans)
+- **agent-quoting-tool**: `data.js` (25 LifeX plans), `iron-health-data.js` (21 plans)
 - **Considerations**: Plan data changes infrequently, API would add latency
 
 ## Schema Design Principles

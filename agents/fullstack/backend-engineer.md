@@ -17,19 +17,19 @@ You are a backend engineering specialist. You build APIs, serverless functions, 
 
 ## Project-Specific Knowledge
 
-### shiny-octo-sniffle (Netlify Functions)
+### agent-quoting-tool (Netlify Functions)
 - `netlify/functions/api-proxy.js` — NGAH API CORS proxy (Basic Auth)
 - `netlify/functions/cms-api-proxy.js` — CMS Marketplace CORS proxy (API Key)
 - Pattern: Serverless proxy functions that add auth and CORS headers
 - Environment variables managed in Netlify Dashboard
 
-### woxomsalesdashboard (FastAPI)
+### sales-dashboard (FastAPI)
 - Python FastAPI backend on Render (free tier with cold starts)
 - Google Sheets API via service account
 - Data signature-based smart refresh
 - Exponential backoff for cold start handling
 
-### BNI_Stuff (Python/Poetry)
+### rainmakers (Python/Poetry)
 - Python 3.12 with Poetry dependency management
 - GoHighLevel CRM OAuth 2.0 integration
 - Google Sheets API for speaker rotation

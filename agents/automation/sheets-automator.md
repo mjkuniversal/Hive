@@ -19,7 +19,7 @@ You are a Google Sheets automation specialist. You build automated workflows tha
 
 ## Project-Specific Knowledge
 
-### BNI_Stuff — Speaker Rotation
+### rainmakers — Speaker Rotation
 - 32 presenting members (35 total, 3 excluded)
 - Round-robin rotation with constraints:
   - Virtual meeting constraints (specific dates)
@@ -30,7 +30,7 @@ You are a Google Sheets automation specialist. You build automated workflows tha
 - Writes rotation schedule to Google Sheets
 - Compliance auditing tools
 
-### woxomsalesdashboard — Deal Tracker
+### sales-dashboard — Deal Tracker
 - HWH Agency Deal Tracker spreadsheet
 - Read via service account
 - Data includes: agent name, deal value, policy type, carrier, date

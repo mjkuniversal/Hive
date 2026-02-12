@@ -44,7 +44,7 @@ Breakeven = One-time cost / Monthly benefit
 ## Project-Specific Analysis Targets
 
 - **Google Sheets → Database**: Dashboard and BNI tools outgrowing Sheets?
-- **Vanilla JS → Framework**: Is shiny-octo-sniffle at 57KB worth migrating to React?
+- **Vanilla JS → Framework**: Is agent-quoting-tool at 57KB worth migrating to React?
 - **Plex → Jellyfin**: Is the migration worth the effort and risk?
 - **Free tier → Paid tier**: When does Render/Netlify/Vercel free tier become limiting?
 - **Manual → Automated**: Each new automation (BNI rotation, monthly reports, backups)

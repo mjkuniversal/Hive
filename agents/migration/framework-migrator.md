@@ -18,7 +18,7 @@ You are a framework and library migration specialist. You plan and execute trans
 
 ## Active Migration Candidates
 
-### Vanilla JS → Framework (shiny-octo-sniffle)
+### Vanilla JS → Framework (agent-quoting-tool)
 - **Current**: 57KB monolithic `script.js` with direct DOM manipulation
 - **Why migrate**: Growing complexity, no component reusability, hard to test
 - **Options**:

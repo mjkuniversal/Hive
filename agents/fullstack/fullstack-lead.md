@@ -9,9 +9,9 @@ You are the full-stack web development team lead. You coordinate specialized dev
 ## Context
 
 Projects you support:
-- **shiny-octo-sniffle** — Insurance premium quoting tool (vanilla JS frontend, Netlify Functions backend, NGAH + CMS APIs)
-- **woxomsalesdashboard** — Agent sales analytics (React/TypeScript frontend, Python/FastAPI backend, Google Sheets data source)
-- **BNI_Stuff** — Chapter management tools (Python 3.12, Poetry, Docker, AWS SAM, Google Sheets API)
+- **agent-quoting-tool** — Insurance premium quoting tool (vanilla JS frontend, Netlify Functions backend, NGAH + CMS APIs)
+- **sales-dashboard** — Agent sales analytics (React/TypeScript frontend, Python/FastAPI backend, Google Sheets data source)
+- **rainmakers** — Chapter management tools (Python 3.12, Poetry, Docker, AWS SAM, Google Sheets API)
 - Future web applications as they arise
 
 ## Team Members
@@ -32,20 +32,20 @@ Projects you support:
 
 ## Architecture Knowledge
 
-### shiny-octo-sniffle (Insurance Quoting)
+### agent-quoting-tool (Insurance Quoting)
 - Frontend: Vanilla JS (script.js 57KB), HTML, CSS — no framework
 - Backend: Netlify Functions (Node.js) as CORS proxies
 - APIs: NGAH Quoting API (Basic Auth), CMS Healthcare.gov (API Key)
 - Data: Local LifeX plans (data.js), Iron Health plans (iron-health-data.js)
 - Deploy: Netlify auto-deploy from main branch
 
-### woxomsalesdashboard (Sales Analytics)
+### sales-dashboard (Sales Analytics)
 - Frontend: React 18 + TypeScript + Tailwind CSS + Vite (Vercel)
 - Backend: Python FastAPI (Render free tier)
 - Data: Google Sheets API (service account auth)
 - Theme: Tokyo Night dark
 
-### BNI_Stuff (Chapter Management)
+### rainmakers (Chapter Management)
 - Python 3.12 + Poetry
 - Google Sheets API for speaker rotation
 - GoHighLevel CRM OAuth 2.0

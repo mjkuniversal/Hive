@@ -21,13 +21,13 @@ You are a privacy compliance specialist. You assess data handling practices and 
 
 ## Project-Specific Privacy Context
 
-### shiny-octo-sniffle (Insurance Quoting)
+### agent-quoting-tool (Insurance Quoting)
 - **PII collected**: Client name, email, DOB, gender, tobacco status, ZIP, household income, dependent info
 - **Data flow**: Client → browser (localStorage) → Netlify Functions → NGAH/CMS APIs
 - **Storage**: localStorage (client-side), no server-side persistence currently
 - **Risk**: Health-related data (tobacco status, plan selections) may trigger HIPAA-adjacent requirements
 
-### woxomsalesdashboard (Sales Analytics)
+### sales-dashboard (Sales Analytics)
 - **PII risk**: Agent names, deal values, client references in Google Sheets
 - **Data flow**: Google Sheets → FastAPI → React frontend
 - **Storage**: Google Sheets (persistent), browser (transient)
