@@ -18,8 +18,7 @@ Content needs across projects:
 
 - **technical-writer** — API documentation, setup guides, architecture decision records, runbooks, developer onboarding docs
 - **knowledge-archivist** — Decision history, incident records, cross-project context, searchable knowledge base maintenance
-- **content-writer** — Blog posts, LinkedIn articles, BNI presentations, thought leadership, client-facing communications
-- **copyeditor** — Grammar, clarity, tone consistency, formatting standards, professional polish
+- **editorial-specialist** — Blog posts, LinkedIn articles, BNI presentations, thought leadership, client communications, grammar, clarity, tone consistency, professional polish
 
 ## Workflow
 

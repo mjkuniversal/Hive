@@ -80,13 +80,13 @@ Add to `~/.claude/settings.json`:
 
 **As subagents** — Claude automatically delegates to agents based on task context, or you can invoke them explicitly:
 ```
-Use the ops-lead agent to diagnose my network issue
+Use the platform-lead agent to diagnose my network issue
 Have the security-auditor check this repo
 ```
 
 **As a team** — Multiple agents work in parallel, communicate directly, and share a task list:
 ```
-Create a team with fullstack-lead, qa-lead, and devops-lead to build and ship this feature
+Create a team with fullstack-lead, qa-lead, and platform-lead to build and ship this feature
 ```
 
 Each team has a **lead** (Opus) that coordinates and **specialists** (Sonnet) that execute. Leads create tasks, assign specialists, and synthesize results.
@@ -103,9 +103,9 @@ cd mcp && python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
 
-Then add your API keys to `~/.claude.json` in the `mcpServers.openai-intern.env` and `mcpServers.gemini-intern.env` blocks:
-- **OpenAI**: Get a key at https://platform.openai.com/api-keys
-- **Gemini**: Get a key at https://aistudio.google.com/apikey
+Then configure auth in `~/.claude.json` under the `mcpServers` env blocks:
+- **OpenAI**: Set `OPENAI_API_KEY` — get a key at https://platform.openai.com/api-keys
+- **Gemini**: Uses a GCP service account via Vertex AI. Set `GOOGLE_SERVICE_ACCOUNT_KEY` to the path of a service account JSON key file with Vertex AI access. The project defaults to `woxom-sales-dashboard` and location to `us-east1` (override with `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION`).
 
 ### Available Tools
 

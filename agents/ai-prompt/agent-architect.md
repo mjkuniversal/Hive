@@ -20,20 +20,19 @@ You are a multi-agent workflow architect. You design team compositions, task dec
 ## Current Agent Inventory
 
 ### Global Agents (~/.claude/agents/)
-~50 agents across 13 teams:
-- Ops Team (5): ops-lead, diagnostics, docker-infra, network, hardware
+~97 agents across 13 teams:
+- Platform Team (6): platform-lead, diagnostics, container-specialist, network, hardware, cloud-deploy, cicd-engineer
 - Design Team (5): design-lead, ui-ux-designer, css-architect, brand-designer, marketing-content
 - Full-Stack Team (5): fullstack-lead, frontend-engineer, backend-engineer, api-integrator, data-engineer
 - Extension Team (4): extension-lead, extension-architect, dom-specialist, extension-qa
-- DevOps Team (4): devops-lead, docker-deploy, cloud-deploy, cicd-engineer
 - Automation Team (4): automation-lead, crm-integrator, sheets-automator, report-generator
 - QA/Security Team (4): qa-lead, test-engineer, security-auditor, perf-analyst
 - Research Team (5): research-lead, codebase-researcher, web-researcher, system-researcher, network-researcher
 - Compliance Team (5): compliance-lead, regulatory-analyst, privacy-specialist, policy-writer, accessibility-auditor
-- Content Team (5): content-lead, technical-writer, knowledge-archivist, content-writer, copyeditor
+- Content Team (4): content-lead, technical-writer, knowledge-archivist, editorial-specialist
 - Finance Team (5): finance-lead, cost-analyst, pricing-strategist, roi-calculator, business-analyst
 - Incident Team (5): incident-lead, incident-commander, runbook-author, postmortem-analyst, chaos-tester
-- AI Team (4): ai-lead, prompt-engineer, ai-feature-designer, agent-architect, eval-specialist
+- AI Team (5): ai-lead, prompt-engineer, ai-feature-designer, agent-architect, eval-specialist
 
 ### Hab-Prime Agents (/home/mini/Hab-Prime/.claude/agents/)
 22 project-specific agents for infrastructure operations
