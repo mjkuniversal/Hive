@@ -3,9 +3,20 @@ import sys
 
 from fastmcp import FastMCP
 from google import genai
+from google.oauth2 import service_account
 
 mcp = FastMCP(name="gemini-intern")
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+
+_creds = service_account.Credentials.from_service_account_file(
+    os.environ["GOOGLE_SERVICE_ACCOUNT_KEY"],
+    scopes=["https://www.googleapis.com/auth/cloud-platform"],
+)
+client = genai.Client(
+    vertexai=True,
+    credentials=_creds,
+    project=os.environ.get("GOOGLE_CLOUD_PROJECT", "woxom-sales-dashboard"),
+    location=os.environ.get("GOOGLE_CLOUD_LOCATION", "us-east1"),
+)
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-pro")
 
 
