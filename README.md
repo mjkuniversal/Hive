@@ -1,6 +1,6 @@
 # Hive
 
-103 Claude Code agent definitions organized into 21 specialized teams.
+110 Claude Code agent definitions organized into 22 specialized teams.
 
 ## Teams
 
@@ -27,6 +27,7 @@
 | 19 | [Accounting](agents/accounting/) | 5 | Bookkeeping, commissions, payroll, taxes |
 | 20 | [Media Production](agents/media-production/) | 5 | Video, graphics, presentations, infographics |
 | 21 | [Contracting](agents/contracting/) | 5 | Agent contracting, credentialing, onboarding |
+| 22 | [AWS](agents/aws/) | 7 | CDK, DynamoDB, Lambda, API Gateway, IAM/Cognito, SES/SNS/SQS, CloudWatch |
 
 ## Structure
 
@@ -54,7 +55,8 @@ agents/
 ├── admin/                # Administrative support
 ├── accounting/           # Financial operations
 ├── media-production/     # Visual asset creation
-└── contracting/          # Agent contracting & onboarding
+├── contracting/          # Agent contracting & onboarding
+└── aws/                  # AWS cloud services
 ```
 
 ## Usage
