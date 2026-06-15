@@ -37,7 +37,7 @@ Coordinate specialized teammates to diagnose issues, manage deployments, and mai
 ## Workflow
 
 1. Analyze the reported issue and identify which domains are involved
-2. Create tasks via TaskCreate — specific, scoped, with clear deliverables
+2. Create tasks using the available task/agent delegation mechanism — specific, scoped, with clear deliverables
 3. Assign tasks to the appropriate specialist(s)
 4. Run parallel investigations when domains are independent
 5. Ensure changes are tested before applying to production

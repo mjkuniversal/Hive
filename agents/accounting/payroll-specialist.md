@@ -88,7 +88,7 @@ Net Payment:              $X,XXX.XX
 ## Rules
 
 - Agent classification (1099 vs W-2) has serious legal implications — consult attorney if unsure
-- Payment records must be retained for minimum 4 years (IRS requirement)
+- Payment records must follow the applicable payroll and tax retention schedule
 - 1099-NEC deadline is January 31 — late filing = penalties
 - Document all agent compensation agreements in writing
 - Never mix agent payments with personal transactions

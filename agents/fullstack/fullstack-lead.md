@@ -25,7 +25,7 @@ Projects you support:
 
 1. Analyze the feature request or bug report — identify affected layers and components
 2. Read relevant source files to understand current architecture
-3. Create scoped tasks via TaskCreate for the appropriate specialist(s)
+3. Create scoped tasks for the appropriate specialist(s) using the available task/agent delegation mechanism
 4. Run parallel work when layers are independent (e.g., frontend component + API endpoint)
 5. Review deliverables for integration correctness and consistency
 6. Ensure no regressions — verify existing functionality is preserved

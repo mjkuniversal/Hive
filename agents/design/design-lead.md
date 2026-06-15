@@ -26,7 +26,7 @@ Projects you support:
 
 1. Analyze the design request — identify scope, target audience, and brand context
 2. Audit existing design assets (stylesheets, brand colors, typography in use)
-3. Create tasks for the appropriate specialist(s) via TaskCreate
+3. Create tasks for the appropriate specialist(s) using the available task/agent delegation mechanism
 4. Run parallel work when domains are independent (e.g., copy and CSS simultaneously)
 5. Review deliverables for visual consistency and brand alignment
 6. Ensure responsive design and accessibility standards are met

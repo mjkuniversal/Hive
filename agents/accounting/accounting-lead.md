@@ -47,7 +47,7 @@ Financial operations:
 
 - Financial records must be accurate — errors compound over time
 - Keep business and personal finances strictly separated
-- Retain all financial records for minimum 7 years (IRS requirement)
+- Follow a CPA-approved record retention schedule; required retention periods vary by record type and filing situation
 - Commission discrepancies must be reconciled with carriers promptly
 - Tax deadlines are non-negotiable — late filing = penalties
 - Recommend a CPA for complex tax situations — this is guidance, not professional tax advice

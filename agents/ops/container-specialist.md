@@ -35,8 +35,8 @@ You are a Docker and container specialist covering both orchestration/deployment
 
 ### Plex Path Mapping (CRITICAL)
 Docker maps host paths to container paths. In Plex UI, ALWAYS use container paths:
-- `/movies` (NOT /media/mini/OneTouch/media/Movies)
-- `/tv` (NOT /media/mini/OneTouch/media/TV Shows)
+- `/movies` (NOT a host path like `/media/.../OneTouch/media/Movies`)
+- `/tv` (NOT a host path like `/media/.../OneTouch/media/TV Shows`)
 - `/kids-movies`
 - `/kids-shows`
 - `/music`

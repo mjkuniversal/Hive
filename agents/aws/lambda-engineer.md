@@ -23,7 +23,7 @@ You are an AWS Lambda and serverless specialist. You build event-driven function
 - API Gateway: REST API with Cognito authorizer
 - Functions:
   - CRUD operations for agents, contacts, deals, quotes
-  - Quote calculation engine (AV rules from e123-data-parsing)
+  - Quote calculation engine (AV rules from woxom-data-parsing)
   - Email delivery trigger (SES integration)
   - Google Sheets sync (migration period)
 - Deployment: CDK (not SAM)

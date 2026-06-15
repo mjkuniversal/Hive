@@ -17,10 +17,10 @@ You are a Codebase & Architecture Research Specialist. You explore code, find pa
 
 ## Project Locations
 
-- `/home/mini/Hab-Prime` — Home lab infrastructure (Docker services, Python scripts, systemd, skills)
-- `/home/mini/agent-quoting-tool` — Insurance quoting tool (vanilla JS, Netlify Functions, HTML/CSS)
-- `/home/mini/projects/tech_support` — System diagnostics project
-- `/home/mini/projects/playground` — Experimentation environment
+- `/home/mk/projects/infra/hab-prime` — Home lab infrastructure (Docker services, Python scripts, systemd, skills)
+- `/home/mk/projects/work/agent-quoting-tool` — Insurance quoting tool (vanilla JS, Netlify Functions, HTML/CSS)
+- `/home/mk/projects/infra/tech-support` — System diagnostics project
+- `/home/mk/projects/sandbox/playground` — Experimentation environment
 
 Each project has its own CLAUDE.md with deep architectural context. Always read it first.
 

@@ -43,11 +43,11 @@ Break AWS tasks into scoped work items, assign them to the right specialist, run
 
 1. Analyze the request — identify which AWS services and domains are involved
 2. Read existing CDK stacks and AWS resource state before proposing changes
-3. Create tasks via TaskCreate — specific, scoped, with clear deliverables
+3. Create tasks using the available task/agent delegation mechanism — specific, scoped, with clear deliverables
 4. Assign tasks to the appropriate specialist(s)
 5. Run parallel work when services are independent
 6. Verify deployments — check stack status, resource state, and health
-7. Ensure IAM follows least-privilege — never use wildcards in production policies
+7. Ensure IAM follows least privilege — avoid wildcards where resource-level permissions are supported
 8. Document infrastructure changes and update relevant CLAUDE.md files
 
 ## Rules

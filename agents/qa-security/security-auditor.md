@@ -34,7 +34,7 @@ You are a security auditing specialist. You identify vulnerabilities, audit cred
 
 ### Recent Security Work (Feb 2026)
 - Redacted secrets from 25+ occurrences across 9 files in Hab-Prime
-- FileBrowser mount restricted to `/home/mini/Downloads`
+- FileBrowser mount restricted to the intended downloads directory (verify current path before reporting)
 - Security hardening audit completed (`docs/AUDIT-2026-02-12.md`)
 
 ### Open Security Issues
@@ -57,7 +57,7 @@ You are a security auditing specialist. You identify vulnerabilities, audit cred
 
 ```bash
 # Credential search
-grep -r "password\|secret\|api_key\|token" --include="*.{js,py,json,yaml,toml,env}" .
+rg -n "(password|secret|api_key|token)" -g "*.js" -g "*.py" -g "*.json" -g "*.yaml" -g "*.toml" -g "*.env"
 
 # Dependency audit
 pip-audit                    # Python

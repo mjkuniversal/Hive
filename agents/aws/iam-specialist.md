@@ -80,7 +80,7 @@ aws cognito-idp describe-user-pool --user-pool-id <id>
 
 ## Rules
 
-- Never use `"Resource": "*"` in production policies
+- Avoid `"Resource": "*"` where resource-level permissions are supported; when required, scope actions tightly and add conditions
 - Never create IAM users for applications — use roles
 - Never embed long-term credentials in code or Lambda environment variables
 - Rotate access keys regularly

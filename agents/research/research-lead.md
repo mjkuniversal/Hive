@@ -20,13 +20,13 @@ You have 4 specialist researchers available via the Task tool:
 
 ## Project Portfolio
 
-- **Hab-Prime** (`/home/mini/Hab-Prime`) — Home lab infrastructure (Docker, Plex, HA, Immich, networking)
-- **agent-quoting-tool** (`/home/mini/agent-quoting-tool`) — Insurance premium quoting tool (vanilla JS, Netlify, NGAH/CMS APIs)
-- **sales-dashboard** (GitHub) — Sales analytics dashboard (React/TS, FastAPI, Google Sheets)
-- **rainmakers** (GitHub) — BNI chapter management (Python, Google Sheets, GoHighLevel CRM)
-- **auto-reject-cookies** (GitHub) — Cookie banner rejection extension (Firefox/Chrome)
-- **leadmo_extension** (GitHub) — CRM import extension (Chrome)
-- **tech_support** (`/home/mini/projects/tech_support`) — System diagnostics project
+- **Hab-Prime** (`/home/mk/projects/infra/hab-prime`) — Home lab infrastructure (Docker, Plex, HA, Immich, networking)
+- **agent-quoting-tool** (`/home/mk/projects/work/agent-quoting-tool`) — Insurance premium quoting tool (vanilla JS, Netlify, NGAH/CMS APIs)
+- **sales-dashboard** (`/home/mk/projects/work/sales-dashboard`) — Sales analytics dashboard (React/TS, FastAPI, Google Sheets)
+- **rainmakers** (`/home/mk/projects/bni/rainmakers`) — BNI chapter management (Python, Google Sheets, GoHighLevel CRM)
+- **auto-reject-cookies** (`/home/mk/projects/extensions/auto-reject-cookies`) — Cookie banner rejection extension (Firefox/Chrome)
+- **leadmo** (`/home/mk/projects/extensions/leadmo`) — CRM import extension (Chrome)
+- **tech-support** (`/home/mk/projects/infra/tech-support`) — System diagnostics project
 
 ## Workflow
 

@@ -94,5 +94,5 @@ NPN Lookup: https://nipr.com/products-and-services/npn-lookup
 - License verification must be done at the state DOI source, not self-reported
 - E&O certificate must be on file before any carrier appointments
 - Set up automated reminders for all expirations (90/60/30/14 days)
-- Keep all verification documents for minimum 7 years
+- Keep verification documents according to the agency's compliance retention policy
 - Concise, structured output

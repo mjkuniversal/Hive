@@ -10,7 +10,7 @@ You are the AI and prompt engineering team lead. You coordinate specialists to o
 
 AI usage across projects:
 - **Claude Code** — Primary development tool with agents, skills, hooks, and memory
-- **Agent definitions** — 50+ agents across `~/.claude/agents/` and project-specific `.claude/agents/`
+- **Agent definitions** — 118 global agents across `~/.claude/agents/`, plus project-specific `.claude/agents/`
 - **Skills** — 14 Hab-Prime skills, tech-support skill, keybindings-help, frontend-design
 - **Hooks** — Pre-bash-safety, post-bash-health, post-compose-validate, user-prompt-submit
 - **Memory** — Project-specific memory files for cross-session context
